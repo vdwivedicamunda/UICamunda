@@ -1,0 +1,37 @@
+<div *ngIf="!submitted" style="padding-left: 512px;">
+  <h2>PAL Information Form</h2>
+    <div>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" [(ngModel)]="firstName"  name="firstName" required>
+    </div>
+    <br>
+    <div>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" [(ngModel)]="lastName"  name="lastName" required>
+    </div>
+    <br>
+    <div>
+    <label for="ohrId">OHR ID:</label>
+    <input type="text" id="ohrId" [(ngModel)]="ohrId" name="ohrId" required>
+    </div>
+    <br>
+    <div>
+      <button type="submit" (click)="onSubmit()">Submit</button>
+    </div>
+</div>
+
+<div *ngIf="submitted" style="padding-left: 512px;">
+    <h2>ATE Review</h2>
+    <label>Choose an option:</label>
+    <div>
+      <input type="radio" id="accept" name="decision" value="accept" [(ngModel)]="decision" required>
+      <label for="accept">Accept</label>
+    </div>
+    <div>
+      <input type="radio" id="reject" name="decision" value="reject" [(ngModel)]="decision" required>
+      <label for="reject">Reject</label>
+    </div>
+    <label for="file">Upload PDF:</label>
+    <input type="file" id="file" (change)="onFileChange($event)" accept=".pdf" />
+    <button type="button" (click)="onDecisionSubmit()">Submit Decision</button>
+  </div>
