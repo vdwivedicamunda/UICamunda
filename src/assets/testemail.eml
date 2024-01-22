@@ -1,0 +1,24 @@
+MIME-Version: 1.0
+Date: Thu, 18 Jan 2024 16:49:34 +0530
+Message-ID: <CADHP0AhCQgH5AqRdphG8m9soKCA1UVTWzfj9p0=YkSaUOQGrng@mail.gmail.com>
+Subject: test email
+From: Sijo Varghese <sijovarghese1604@gmail.com>
+To: Sijo Varghese <Sijovarghese1604@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000c1aae6060f368931"
+
+--000000000000c1aae6060f368931
+Content-Type: text/plain; charset="UTF-8"
+
+Hi ,
+
+test email. Checking
+
+Thanks,
+Sijo
+
+--000000000000c1aae6060f368931
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">Hi ,<div><br></div><div>test email. Checking</div><div><br></div><div>Thanks,</div><div>Sijo</div></div>
+
+--000000000000c1aae6060f368931--
